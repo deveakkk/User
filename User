@@ -1,0 +1,81 @@
+
+package data;
+
+public class User {
+    private String id;
+    private String lastname;
+    private String firstname;
+    private String patronymic;
+    private String login;
+    private String password;
+    private String post;
+    private double salary;
+
+    public User(String surname, String lastName, String name, String password, String job) {
+        this.lastname = surname;
+        this.patronymic = patronymic;
+        this.firstname = name;
+        this.password = password;
+        this.post = job;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public String getPatronymic() {
+        return patronymic;
+    }
+
+    public void setPatronymic(String patronymic) {
+        this.patronymic = patronymic;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPost() {
+        return post;
+    }
+
+    public void setPost(String post) {
+        this.post = post;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+}
